@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _stncat - concatenates two strings
+ * _strncat - concatenates two strings
  *
  * @src: the source of strings
  * @dest: the destination of the string
@@ -9,7 +9,7 @@
  *
  * Return: pointer to the resulting string destination
  */
-char *_stncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
